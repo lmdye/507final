@@ -32,8 +32,12 @@ This project provides a platform for analyzing and visualizing environmental dat
 8. Visualize population growth vs global protected area
    - Graphical output: Line plot illustrating population growth trend compared to cumulative global protected area.
 
-9. Perform Graph Operations
-   - Example operations: Add node representing a country, Add edge representing a connection between countries, Visualize protected areas network.
+9. Perform graph operations
+   - **1. Add Node:** Add a country node by entering its name or code.
+   - **2. Add Edge:** Connect two countries with an edge.
+   - **3. Visualize Network:** View the protected areas network graph.
+   - **4. Exit:** Return to the main menu.
+   Simply select the desired option and follow the prompts to interact with the graph.
 
 10. Exit: Terminate the program.
 
