@@ -1,4 +1,5 @@
-**Project Name: Environmental Data Analysis**
+**Environmental Data Analysis**
+by dyel
 
 **Description:**
 This project provides a platform for analyzing and visualizing environmental data related to temperature anomalies, population demographics, and protected areas across different countries. It offers various interactions to explore and understand trends in global environmental data.
