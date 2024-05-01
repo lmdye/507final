@@ -1,10 +1,9 @@
 ### Environmental Data Analysis
-by dyel
 
-**Description:**
-This project provides a platform for analyzing and visualizing environmental data related to temperature anomalies, population demographics, and protected areas across different countries. It offers various interactions to explore and understand trends in global environmental data.
+#### Description:
+This project offers a platform for analyzing and visualizing environmental data related to temperature anomalies, population demographics, and protected areas across various countries. It provides a user-friendly interface to explore and understand trends in global environmental data.
 
-**Interactions:**
+#### Interactions:
 1. **Get population of a country by year (1950-2021):**
    - Prompt: Enter country name, Alpha-2 code, or Alpha-3 code.
    - Answer: Population of the specified country in the given year.
@@ -36,13 +35,17 @@ This project provides a platform for analyzing and visualizing environmental dat
 9. **Perform clustering and visualize clusters:**
    - Graphical output: Scatter plot showing clusters of countries based on population and total protected area.
 
-10. **Exit:** Terminate the program.
+10. **Search a country for protected areas:**
+    - Prompt: Enter the country you want to search for.
+    - Answer: Information about protected areas in the specified country.
 
-**Special Instructions:**
+11. **Exit:** Terminate the program.
+
+#### Special Instructions:
 - Ensure all required data files (`protected_areas.csv`, `population_and_demography.csv`, `iso_codes.csv`, `land.json`, `ocean.json`) are present in the project directory.
 - No API keys are needed to run the program.
 
-**Required Python Packages:**
+#### Required Python Packages:
 - pandas
 - matplotlib
 - seaborn
@@ -50,6 +53,8 @@ This project provides a platform for analyzing and visualizing environmental dat
 - networkx
 - sklearn
 
-**Network (Graph) Organization:**
+#### Network (Graph) Organization:
 - **Nodes:** Each node represents a country.
 - **Edges:** Edges represent connections between countries, indicating relationships or interactions.
+
+This project provides a comprehensive tool for exploring environmental data and gaining insights into global trends and patterns. Users can analyze various aspects of population, temperature anomalies, and protected areas across different countries, facilitating informed decision-making in environmental research and policy development.
